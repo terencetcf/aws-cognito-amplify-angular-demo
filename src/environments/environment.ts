@@ -3,7 +3,13 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  cognito: {
+    region: 'ap-southeast-1',
+    userPoolId: 'ap-southeast-XXXXXX',
+    userPoolWebClientId: 'YYYYYY',
+    domain: 'ZZZZZ.auth.ap-southeast-1.amazoncognito.com',
+  },
 };
 
 /*
